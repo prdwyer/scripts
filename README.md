@@ -1,8 +1,3 @@
-stuff
-
-
-
-
 * 2071  python csv_ip_host.py host2ip subdomains.csv 
 * 2072  python csv_ip_host.py host2ip subdomains.csv t
 * 2073  cat ttest.csv
@@ -47,3 +42,16 @@ stuff
 * 2125  cat ips.txt | grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}"
 * 2126  cat ips.txt | grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}" | xargs -L1 shodan host\n
 *
+
+
+
+
+dependencies
+
+python3
+
+requests
+pdfminer
+ioc-finder
+
+
